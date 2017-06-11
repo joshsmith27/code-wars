@@ -8,6 +8,7 @@
 // Only lower case letters will be used (a-z). No punctuation or digits will be included.
 // Performance needs to be considered
 
+// MY ANSWER //
 function scramble(str1, str2) {
     var array1 = str1.split("").sort();
     var array2 = str2.split("").sort();
