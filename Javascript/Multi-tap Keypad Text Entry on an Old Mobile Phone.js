@@ -24,120 +24,112 @@
 //
 // For this assignment, write a module that can calculate the amount of button presses required for any phrase. Punctuation can be ignored for this exercise. Likewise, you can assume the phone doesn't distinguish between upper/lowercase characters (but you should allow your module to accept input in either for convenience).
 function presses(phrase) {
-  var phaseArr = phrase.split('');
+  var phraseArr = phrase.split('');
   var clicks = 0;
-  console.log(phrase);
-  for(var x in phaseArr){
-    switch(phaseArr[x]){
-      case 'A'|| 'a':
+  for(var x in phraseArr){
+    phraseArr[x] = phraseArr[x].toUpperCase();
+    switch(phraseArr[x]){
+      case 'A':
       clicks = clicks + 1;
       break;
 
-      case 'B'|| 'b':
+      case 'B':
       clicks = clicks + 2;
       break;
 
-      case 'C'|| 'c':
+      case 'C':
       clicks = clicks + 3;
       break;
 
-      case 'D'|| 'd':
+      case 'D':
       clicks = clicks + 1;
       break;
 
-      case 'E'|| 'e':
+      case 'E':
       clicks = clicks + 2;
       break;
 
-      case 'F'|| 'f':
+      case 'F':
       clicks = clicks + 3;
       break;
 
-      case 'G'|| 'g':
+      case 'G':
       clicks = clicks + 1;
       break;
 
-      case 'H'|| 'h':
+      case 'H':
       clicks = clicks + 2;
       break;
 
-      case 'I' || 'i':
+      case 'I':
       clicks = clicks + 3;
       break;
 
-      case 'J' || 'j':
+      case 'J':
       clicks = clicks + 1;
       break;
 
-      case 'K' || 'k':
+      case 'K':
       clicks = clicks + 2;
       break;
 
-      case ('L'|| 'l'):
+      case 'L':
       clicks = clicks + 3;
       break;
 
-      case 'l':
-      clicks = clicks + 3;
-      break;
-
-      case 'M' || 'm':
+      case 'M':
       clicks = clicks + 1;
       break;
 
-      case 'N' || 'n':
+      case 'N':
       clicks = clicks + 2;
       break;
 
-      case ('O' || 'o'):
+      case 'O':
       clicks = clicks + 3;
       break;
 
-      case ('o'):
-      clicks = clicks + 3;
-      break;
-
-      case 'P'|| 'p':
+      case 'P':
       clicks = clicks + 1;
       break;
 
-      case 'Q'|| 'q':
+      case 'Q':
       clicks = clicks + 2;
       break;
 
-      case 'R'|| 'r':
+      case 'R':
       clicks = clicks + 3;
       break;
 
-      case 'S' || 's':
+      case 'S':
       clicks = clicks + 4;
       break;
 
-      case 'T'|| 't':
+      case 'T':
       clicks = clicks + 1;
       break;
 
-      case 'U' || 'u':
+      case 'U':
       clicks = clicks + 2;
       break;
 
-      case 'V' || 'v':
+      case 'V':
       clicks = clicks + 3;
       break;
 
-      case 'W' || 'w':
+      case 'W':
       clicks = clicks + 1;
       break;
 
-      case 'X' || 'x':
+      case 'X':
       clicks = clicks + 2;
       break;
 
-      case ('Y' || 'y'):
+      case 'Y' :
       clicks = clicks + 3;
       break;
 
-      case ('Z' || 'z'):
+      case 'Z':
       clicks = clicks + 4;
       break;
       case '0':
