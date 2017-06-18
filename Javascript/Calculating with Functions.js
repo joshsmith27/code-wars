@@ -51,7 +51,7 @@ function dividedBy(first) {
   };
 }
 
-// best answer;
+// best answer; 
 var n = function(digit) {
   return function(op) {
     return op ? op(digit) : digit;
