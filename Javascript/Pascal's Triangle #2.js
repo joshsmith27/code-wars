@@ -29,13 +29,13 @@ function pascal(depth) {
 }
 
 function pascal(depth) {
-  var result = []
+  var result = [];
   for (var i = 1; i <= depth; ++i) {
-    var row = []
+    var row = [];
     for (var j = 0; j < i; ++j) {
-      row.push(j == 0 || j == i - 1 ? 1 : result[i-2][j-1] + result[i-2][j])
+      row.push(j == 0 || j == i - 1 ? 1 : result[i-2][j-1] + result[i-2][j]);
     }
-    result.push(row)
+    result.push(row);
   }
-  return result
+  return result;
 }
