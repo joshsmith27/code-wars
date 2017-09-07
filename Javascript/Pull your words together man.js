@@ -8,7 +8,7 @@
 // Robbie has pulled multiple all-nighters to get this project finished, and he needs some beauty sleep. So, he wants you to write the last part of his code, a sentencify function, which takes the output that the machine gives, and formats it into proper English orthography.
 //
 // Your function should:
-//
+//å
 // Capitalise the first letter of the first word.
 // Add a period (.) to the end of the sentence.
 // Join the words into a complete string, with spaces.
@@ -31,5 +31,5 @@ function sentencify(words) {
 
 // best answer
 function sentencify(words) {
-  return words.join(' ').replace(/^[a-z]/,m=>m.toUpperCase())+'.'
+  return words.join(' ').replace(/^[a-z]/,m=>m.toUpperCase())+'.';
 }
