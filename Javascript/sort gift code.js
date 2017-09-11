@@ -12,7 +12,7 @@
 //
 // sortGiftCode( 'abcdef' ); //=> returns 'abcdef'
 // sortGiftCode( 'pqksuvy' ); //=> returns 'kpqsuvy'
-// sortGiftCode( 'zyxwvutsrqponmlkjihgfedcba' ); //=> returns 'abcdefghijklmnopqrstuvwxyz'
+// sortGitftCode( 'zyxwvutsrqponmlkjihgfedcba' ); //=> returns 'abcdefghijklmnopqrstuvwxyz'
 
 function sortGiftCode(code){
   var arr = code.split('');
