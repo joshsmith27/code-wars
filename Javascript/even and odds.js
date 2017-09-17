@@ -7,3 +7,7 @@ function evensAndOdds(num){
     return num.toString(16);
   }
 }
+//best answer
+function evensAndOdds(num){
+  return (num&1) ? num.toString(16) : num.toString(2);
+}
