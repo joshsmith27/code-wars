@@ -27,3 +27,7 @@ function explode(x){
    return 'Void!';
   }
 }
+
+//best answer
+
+const explode=([x,y])=>x+0!=x&&y+0!=y?"Void!":Array((+x||0)+(+y||0)).fill([x,y]);
