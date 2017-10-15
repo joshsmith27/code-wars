@@ -33,3 +33,9 @@ public class Kata
     }
   }
 }
+// best answer
+
+public class Kata
+{
+  public static char Grader(double v) => v > 1 || v < 0.6 ? 'F' : v >= 0.9 ? 'A' : v >= 0.8 ? 'B' : v >= 0.7 ? 'C' : 'D';
+}
