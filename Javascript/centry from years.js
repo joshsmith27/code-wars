@@ -16,6 +16,5 @@
 // NOTE: for C++, cmath (i.e. math.h) is disallowed in this Kata, in particular the ceil function; otherwise, what is the fun of this Kata? ;)
 
 function century(year) {
-    var num = year / 100
-    return Math.ceil(num)
-  }
+    return (year + 99) / 100 | 0;
+  };
