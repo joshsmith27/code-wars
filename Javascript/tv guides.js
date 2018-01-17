@@ -23,3 +23,8 @@ function redarr(arr) {
     }  
    return answer;
  }
+
+ //best answer;
+ function redarr(arr) {
+    return Object.assign({}, Array.from(new Set(arr)).sort());
+  }
