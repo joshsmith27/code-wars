@@ -9,5 +9,6 @@
 // Input: 1254859723 Output: 9875543221
 
 function descendingOrder(n){
-return parseInt(n.toString().split('').sort().reverse().join(''), 10);
-}
+    return parseInt(n.toString().split('').sort().reverse().join(''), 10);
+    }
+
