@@ -16,3 +16,4 @@ var quote = function(fighter) {
   }else{
     return "I'd like to take this chance to apologize.. To absolutely NOBODY!"
   }
+}
