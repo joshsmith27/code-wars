@@ -10,3 +10,9 @@ public class Kata {
         return beast.ToCharArray () [0] == dish.ToCharArray () [0] && beast.ToCharArray () [beast.ToCharArray ().Length - 1] == dish.ToCharArray () [dish.ToCharArray ().Length - 1];
     }
 }
+
+using System.Linq;
+
+public class Kata {
+    public static bool Feast (string beast, string dish) => beast.First () == dish.First () && beast.Last () == dish.Last ();
+}
