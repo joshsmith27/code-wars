@@ -11,7 +11,7 @@ public class Kata {
     }
 }
 
-using System.Linq;
+// using System.Linq;
 
 public class Kata {
     public static bool Feast (string beast, string dish) => beast.First () == dish.First () && beast.Last () == dish.Last ();
