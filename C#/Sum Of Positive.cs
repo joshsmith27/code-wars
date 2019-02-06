@@ -12,7 +12,6 @@ public class Kata
 {
     public static int PositiveSum(int[] arr)
     {
-
         return arr.ToList().Where(x => x > 0).Sum();
     }
 }
