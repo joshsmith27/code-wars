@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/Javascript/reductions directions.js"
+            "program": "${workspaceFolder}/Javascript/find smallest Number.js"
         }
     ]
 }
