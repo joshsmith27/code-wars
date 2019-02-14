@@ -17,16 +17,27 @@ using System.Collections.Generic;
 using System.Linq;
 public static class Kata
 {
-  public static string Kira(List<int> a, List<int> b, string c)
-  {
-    int remainder = 0; 
-    for(int i = 0; i < a.Count(); i++)
+    public static string Kira(List<int> a, List<int> b, string c)
     {
-      if(a[i] % b[i] > remainder)
-      {
-        remainder = a[i] % b[i];
-      }
+        int remainder = 0;
+        for (int i = 0; i < a.Count(); i++)
+        {
+            if (a[i] % b[i] > remainder)
+            {
+                remainder = a[i] % b[i];
+            }
+        }
+        return remainder % 2 == 0 ? c.ToLower() : c.ToUpper();
     }
-    return remainder % 2 == 0 ? c.ToLower() : c.ToUpper();
-  }
+}
+
+// using System.Linq;
+// using System.Collections.Generic;
+
+public static class Kata
+{
+    public static string Kira(List<int> a, List<int> b, string c)
+    {
+        return Enumerable.Range(0, a.Count).Select(x => a[x] % b[x]).Max() % 2 == 0 ? c.ToLower() : c.ToUpper();
+    }
 }
