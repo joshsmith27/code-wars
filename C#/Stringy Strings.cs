@@ -35,3 +35,13 @@ public class Kata
         return string.Join("", nums);
     }
 }
+
+// using System.Linq;
+
+public class Kata
+{
+    public static string Stringy(int size)
+    {
+        return string.Join("", Enumerable.Range(0, size).Select(x => (x + 1) % 2));
+    }
+}
