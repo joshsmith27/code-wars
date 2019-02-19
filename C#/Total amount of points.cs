@@ -40,3 +40,13 @@ public static class Kata
         return count;
     }
 }
+
+// using System.Linq;
+
+public static class Kata
+{
+    public static int TotalPoints(string[] games)
+    {
+        return games.Sum(x => (x[0] - '0') > (x[2] - '0') ? 3 : (x[0] - '0') < (x[2] - '0') ? 0 : 1);
+    }
+}
