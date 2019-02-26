@@ -14,3 +14,11 @@ public class Kata
     return Convert.ToInt32(Math.Floor(hol / (normPrice * (0.01 * Discount))));
   }
 }
+
+public class Kata
+{
+  public static int DutyFree(int normPrice, int Discount, int hol)
+  {
+    return (int)(hol / (normPrice * (Discount / 100f)));
+  }
+}
