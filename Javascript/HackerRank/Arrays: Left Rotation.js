@@ -37,8 +37,8 @@
 
 
 function rotLeft(a, d) {
-    const left = a.splice(0, d>a.length ? d % a.length : d);
+    const left = a.splice(0, d % a.length);
     return [...a, ...left]; 
 }
 
-console.log(rotLeft([1,2,3,4,5,6,7,8,9,10], 14))
+console.log(rotLeft([1,2,3,4,5,6,7,8,9,10], 1))
