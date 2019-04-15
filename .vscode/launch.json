@@ -8,7 +8,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/Javascript/valid parentheses.js"
+            "program": "${workspaceFolder}/Javascript/Parts of a list.js",
+            "runtimeVersion": "8.12.0"
         }
     ]
 }
