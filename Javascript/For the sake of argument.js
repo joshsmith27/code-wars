@@ -9,14 +9,6 @@
 // numbers(1, 3, NaN); // true
 
 const numbers = function () {
-    // let answer = true;
-    // for(let i = 0; i < arguments.length; i++){
-    //     console.log(arguments[i])
-    //     if(typeof arguments[i] !== 'number'){
-    //         answer =false;
-    //     }
-    // }
-    // return answer
     return Array.from(arguments).every((e) => {
         return  typeof e === "number";
     })
