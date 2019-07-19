@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/how-good-are-you-really/train/csharp
+
 using System.Linq;
 
 public class Kata
