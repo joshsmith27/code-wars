@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/take-an-arrow-to-the-knee-functionally/train/csharp
 using System;
 using System.Linq;
 
